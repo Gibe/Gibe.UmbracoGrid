@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+	<metadata>
+		<id>Gibe.UmbracoGrid</id>
+		<version>$version$</version>
+		<authors>Gibe Digital Ltd</authors>
+		<requireLicenseAcceptance>false</requireLicenseAcceptance>
+		<description>
+			Types for strongly typed, dynamically bound Umbraco grid components.
+		</description>
+		<dependencies>
+			<dependency id="Our.Umbraco.Ditto" version="0.10.0" />
+		</dependencies>
+	</metadata>
+	<files>
+		<file src="bin\Release\Gibe.UmbracoGrid.dll" target="lib" />
+	</files>
+</package>
